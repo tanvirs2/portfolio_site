@@ -19,6 +19,9 @@ import {
   threejs,
   php,
   laravel,
+  tailorGif,
+  customFabric,
+  cb, banner2d,
 } from "../assets";
 
 export const navLinks = [
@@ -30,10 +33,14 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
-  /*{
-    id: "contact",
-    title: "Contact",
-  },*/
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "myStory",
+    title: "Childhood Story",
+  },
 ];
 
 const services = [
@@ -113,7 +120,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Full-stack Developer",
     company_name: "GenomeArc Inc",
     icon: starbucks,
     iconBg: "#383E56",
@@ -122,6 +129,17 @@ const experiences = [
       "In this organization, we utilize a specialized software designed exclusively for medical scientists.",
       "I have modified the interface to make it interactive and easy to use for scientists, as they have different requirements compared to other users. Moreover, I have improved the performance optimization.",
       "Additionally, I am involved in the development and guidance of their website, which is user-friendly and dynamic for both general users and administrators.",
+    ],
+  },{
+    title: "2D,3D Graphics Programmer",
+    company_name: "Codebeyins (Co-Founder)",
+    icon: cb,
+    iconBg: "#383E56",
+    date: "DECEMBER 2021 - PRESENT (Part Time)",
+    points: [
+      "I am one of the co-founders of this organization.",
+      "I am involved in developing and guiding projects, mentoring developers to create user-friendly and dynamic experiences for both general users and administrators.",
+      "Sometimes, when nearing the deadline for project development, I step in at the last moment and take over projects, ensuring their completion before the deadline. I play a crucial role in every aspect of our team.",
     ],
   },
   {
@@ -180,7 +198,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SpinAutomation",
+    name: "SpinAutomation ERP",
     description:
       "Cloud-based: ERP SpinAutomation is a software suite that operates on the cloud and is specifically created for medium-sized businesses (MSB). It others a wide range of functionalities that can assist MSB in automating their business operations, enhancing their productivity, and enabling more informed decision-making.",
     tags: [
@@ -198,10 +216,11 @@ const projects = [
       },
     ],
     image: carrent,
+    techImg: laravel,
     source_code_link: "http://erp.tanvirpro.com/",
   },
   {
-    name: "EliteT@ilor",
+    name: "EliteT@ilor (3D)",
     description:
       "Impeccable-custom-tailoring: ElitTailor is an internet-based tailoring platform which enables users to design personalized shirts, suits, and other clothing items. It has a variety of fabrics and styles to choose from. elitTailor is an excellent system for transforming user envisioned garments into reality.",
     tags: [
@@ -218,8 +237,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "http://elite.tanvirpro.com/tailor",
+    image: tailorGif,
+    techImg: threejs,
+    source_code_link: "https://elite.tanvirpro.com/tailor",
   },
   {
     name: "SMS API",
@@ -240,8 +260,60 @@ const projects = [
       },
     ],
     image: tripguide,
+    techImg: reactjs,
     source_code_link: false,
   },
+
+  {
+    name: "Dynamic Fabric (2D)",
+    description:
+      "Replace the fabric with PixiJS, as it allows users to customize their fabric designs. It utilizes WebGL in a way similar to threeJS. It is lightweight and easy to render on user devices, using minimal hardware resources. In a nutshell, it is an amazing technology and the near future of web technology.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pixijs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: customFabric,
+    techImg: figma,
+    source_code_link: false,
+  },
+
+  {
+    name: "Graphics Programing",
+    description:
+      "This is an animation created using vanilla JavaScript. I named this project \"Sweet Dream\" during development. It does not utilize WebGL or any WebGL libraries like ThreeJS or BabylonJS, so it technically does not rely on the GPU. Instead, it solely relies on the CPU, making it a CPU-intensive project. Nonetheless, it is a unique and impressive piece of work.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "vanilla",
+        color: "green-text-gradient",
+      },
+    ],
+    image: banner2d,
+    techImg: javascript,
+    source_code_link: "https://old.tanvirpro.com/all_project/2D/sweetDream/",
+  },
+];
+
+const contacts = [
+    //https://gitlab.com/tanvirs2
+  {
+    name: "",
+    image: "",
+    url: ""
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

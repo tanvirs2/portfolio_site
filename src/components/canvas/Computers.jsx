@@ -122,7 +122,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-        className="cursor-pointer"
+      className="cursor-pointer"
       frameloop='demand'
       shadows
       dpr={[1, 2]}
@@ -131,6 +131,7 @@ const ComputersCanvas = () => {
     >
       <OrbitControls
           autoRotate
+          enablePan={false}
           autoRotateSpeed={2}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

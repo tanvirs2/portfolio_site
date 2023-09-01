@@ -4,7 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import laravel from "./tech/laravel.png";
-import github from "./github.png";
+import github from "./github.webp";
+import gitlab from "./gitlab.webp";
+import linkedin from "./linkedin.webp";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -37,6 +39,11 @@ import eliteBanner from "./darken/elite.webp";
 import rmgBanner from "./darken/rmg.webp";
 import genomeBanner from "./darken/genome.webp";
 import genomeWebBanner from "./darken/genomeWeb.webp";
+import arrowDown from "./arrow-down.png";
+import tailorGif from "./projects/tailor.gif";
+import customFabric from "./projects/custom_fabric.gif";
+import banner2d from "./projects/banner-2d.webp";
+import cb from "./company/cb.png";
 
 export {
   logo,
@@ -74,4 +81,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  arrowDown,
+  tailorGif,
+  customFabric,
+  cb,
+  linkedin,
+  gitlab,
+  banner2d
 };
