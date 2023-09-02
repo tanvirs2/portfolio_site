@@ -10,21 +10,7 @@ const Hero = () => {
         //document.getElementById("hommm").scrollIntoView();
     }, [])
 
-    const container = {
-        hidden: { opacity: 0 },
-        show: {
-            opacity: 1,
-            transition: {
-                delayChildren: 0.5,
-                staggerDirection: -1
-            }
-        }
-    }
 
-    const item = {
-        hidden: { opacity: 0 },
-        show: { opacity: 1 }
-    }
 
   return (
     <section className={`relative w-full h-screen mx-auto`} id="hommm" >
@@ -59,7 +45,7 @@ const Hero = () => {
                     repeat: Infinity,
                     repeatType: "reverse",
                 }}
-                className="border-4 border-indigo-500/50 p-5 pt-0"
+                className="border-2 border-indigo-500/50 p-5 pt-0"
             >
                 <motion.div
                     animate={{
