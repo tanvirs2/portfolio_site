@@ -57,7 +57,7 @@ const Computers = ({ isMobile }) => {
         {/*speacail*/}
         <mesh position={[-0.045, -0.211, 0.09]} rotation={[-0.18, 0.06, 0.01]} scale={[1.08, 0.61, .1]}>
             <planeGeometry/>
-            <meshPhongMaterial map={colorMap} shininess={25} />
+            <meshPhongMaterial map={colorMap} shininess={25} side={THREE.DoubleSide} />
         </mesh>
         {/*speacail*/}
 
