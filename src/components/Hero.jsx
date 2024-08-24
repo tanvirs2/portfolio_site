@@ -109,7 +109,7 @@ const Hero = () => {
               </h1>
 
              <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                 I am an experienced developer in PHP and JavaScript, <br className='sm:block hidden' />
+                 I am an experienced developer in JavaScript, <br className='sm:block hidden' />
                  specializing in web app development, UI design, and 2D-3D visuals.
               </p>
             </motion.div>

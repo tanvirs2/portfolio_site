@@ -49,15 +49,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Laravel Developer",
-    icon: laravel,
+    title: "NodeJS Developer",
+    icon: nodejs,
   },
   {
     title: "React Developer",
     icon: reactjs,
   },
   {
-    title: "Three.JS Developer",
+    title: "Three.JS (3D) Developer",
     icon: threejs,
   },
   {
@@ -67,10 +67,6 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "PHP",
-    icon: php,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -119,6 +115,10 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "PHP",
+    icon: php,
   }
 ];
 
@@ -128,13 +128,13 @@ const experiences = [
     company_name: "GenomeArc Inc",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "JANUARY 2022 - PRESENT (Part Time)",
+    date: "March 2021 - PRESENT (Remote)",
     points: [
       "In this organization, we utilize a specialized software designed exclusively for medical scientists.",
       "I have modified the interface to make it interactive and easy to use for scientists, as they have different requirements compared to other users. Moreover, I have improved the performance optimization.",
       "Additionally, I am involved in the development and guidance of their website, which is user-friendly and dynamic for both general users and administrators.",
     ],
-  },{
+  },/*{
     title: "2D,3D Graphics Programmer",
     company_name: "Codebeyins (Co-Founder)",
     icon: cb,
@@ -145,32 +145,32 @@ const experiences = [
       "I am involved in developing and guiding projects, mentoring developers to create user-friendly and dynamic experiences for both general users and administrators.",
       "Sometimes, when nearing the deadline for project development, I step in at the last moment and take over projects, ensuring their completion before the deadline. I play a crucial role in every aspect of our team.",
     ],
-  },
+  },*/
+
   {
     title: "Software Engineer",
-    company_name: "West Apparels Ltd",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "NOVEMBER 2018 - PRESENT",
-    points: [
-      "I am employed as a Lead Software Engineer in this company, focusing on utilizing a specialized ERP software designed for the ready-made garments (RMG) industry.",
-      "I am responsible for leading the development of both the frontend and backend of this software. It is specifically designed to be easily navigable for users with limited experience.",
-      "I have created 28 complex modules for this software in total, which includes a successful user activity tracking system. The organization's owners are extremely satisfied with this module and have rewarded me with a promotion.",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company_name: "Banglalink Digital - Vandor: Subra Systems Ltd",
+    company_name: "Banglalink Digital Communication",
     icon: shopify,
     iconBg: "#383E56",
-    date: "September 2017 - October 2018",
+    date: "May 2018 - February 2021",
     points: [
       "This company is currently one of the largest telecommunications companies in Bangladesh. I upgraded their existing CRM application to the next version.",
       "When I joined them, they were facing a serious issue with accessing this application. The application was extremely slow and di�cult to use. They had been struggling with this problem for the past three months. I conducted an investigation and within just four days, I identified the problem and reported it to the group head.",
       "I initiated the process of fixing the problem and once it was resolved, my group head expressed great appreciation and they were very pleased  to have me on board.",
     ],
   },
-
+  {
+    title: "Software Engineer",
+    company_name: "West Apparels Ltd",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "September 2017 - April 2018",
+    points: [
+      "I am employed as a Software Engineer in this company, focusing on utilizing a specialized ERP software designed for the ready-made garments (RMG) industry.",
+      "I am responsible for the development of both the frontend and backend of this software. It is specifically designed to be easily navigable for users with limited experience.",
+      "I have created 2 complex modules for this software in total, which includes a successful user activity tracking system. The organization's owners are extremely satisfied with this module and have rewarded me with a promotion.",
+    ],
+  }
 ];
 
 const testimonials = [

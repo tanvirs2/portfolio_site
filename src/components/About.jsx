@@ -47,9 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-light text-[17px] max-w-3xl leading-[30px]'
       >
-          I have worked as a full-stack developer for over 7 years with <strong>T-shaped knowledge</strong> .
-          I have a broad understanding of all aspects of full-stack development, with a specific focus on PHP and JavaScript.
-          I have also gained experience using popular frameworks like ReactJS, Angular, Node.js, React Native, Three.js, Laravel, and Codeigniter.
+          I have worked as a full-stack developer for 7 years with <strong>T-shaped knowledge</strong> .
+          I have a broad understanding of all aspects of full-stack development, with a specific focus on JavaScript.
+          I have also gained experience using popular frameworks like ReactJS, Angular, Node.js, React Native, Three.js and Laravel.
           Additionally, I am familiar with other technologies such as Java, C, C++, Python, SQL Server, and NoSQL databases.
           I am quick to learn and work closely with clients to create efficient, scalable, and user-friendly solutions that effectively solve real-world problems.
           Let's work together to turn your ideas into reality!
